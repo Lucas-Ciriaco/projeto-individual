@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #4b4750;
+  background: #faf9fb;
+}
+
+#root {
+  max-width: 1126px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: #2d2a32;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 32px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 15px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #eeecf1;
+}
